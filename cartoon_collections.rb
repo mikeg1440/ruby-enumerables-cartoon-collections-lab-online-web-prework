@@ -12,6 +12,7 @@ def long_planeteer_calls(calls)
   calls.collect {|call| call.length > 4 ? (return true) : (false) }
 
   #more_than_four
+  return false
 end
 
 def find_the_cheese(string_array)
