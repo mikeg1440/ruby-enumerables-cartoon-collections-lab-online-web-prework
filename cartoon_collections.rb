@@ -14,5 +14,5 @@ def find_the_cheese(string_array)
   
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  string_array.map {|string| if 
+  cheese_types.map {|cheese| return true if string_array.include? cheese}
 end
